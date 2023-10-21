@@ -1,0 +1,165 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: grab;
+}
+#root{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.navbar {
+    background-color: transparent;
+    position:fixed;
+    top: 0;
+    z-index: 100;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+   width: 100%;
+   align-items: center;
+}
+.menu-btn {
+    /* margin: 10px; */
+    border-radius: 7px;
+    border: 1px solid transparent;
+    background-color: #ececf3;
+    height: 6vh;
+    margin-left: 3%;
+}
+.middle-bar {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center ;
+    gap: .85rem;
+    padding: 5px 5px;
+    box-shadow:2px 2px 6px 2px rgba(0, 0, 0, 0.15);
+    height: 6vh;
+    
+}
+
+.btn1 {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    margin-top: 1.4%;
+}
+
+.btn1:hover {
+    background-color: lightskyblue;
+    border-radius: 5px;
+}
+.btn11 {
+    border: none;
+    background-color: transparent;
+}
+
+.btn11:hover {
+    background-color: lightskyblue;
+    border-radius: 5px;
+}
+
+.btn12 {
+    border: none;
+    background-color: transparent;
+}
+
+.btn12:hover {
+    background-color: lightskyblue;
+    border-radius: 5px;
+}
+
+.btn1 p {
+    font-size: 9px;
+    color: #b8b8b8;
+}
+
+.btn-01 {
+    border-radius: 8px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    height: 6vh;
+}
+
+.library {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    border-radius: 7px;
+    border: none;
+    background-color:  #ececf3;
+}
+
+.profile-btn {
+    display: flex;
+    gap: 10px;
+    width: 12%;
+    
+}
+
+.library p {
+    color: dimgrey;
+}
+.footer {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+}
+.fbtn-1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    height: 6vh;
+    border-radius: 8px;
+    border: none;
+    background-color:  #ececf3;
+}
+.fbtn-2 {
+    display: flex;
+    height: 6vh;
+    gap: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color:  #ececf3;
+    align-items: center;
+}
+
+.fbtn-3 {
+    height: 6vh;
+    color: blueviolet;
+    border-radius: 8px;
+    border: none;
+    background-color: transparent;
+    margin-left: 285%;
+}
+
+.fbtn-4 {
+    height: 6vh;
+    border-radius: 8px;
+    border: none;
+    background-color: #ececf3;
+}
+
+#canvas {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
